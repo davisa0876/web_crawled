@@ -5,9 +5,9 @@ This is a simple web crawler implemented using the Laravel PHP framework and the
 The code is deployed Google Cloud
 
 #LINKS:
-  https://challenges-393913.nn.r.appspot.com/ 
-  https://challenges-393913.nn.r.appspot.com/web-crawler
-  https://challenges-393913.nn.r.appspot.com/web-crawler/agencyanalytics
+  - https://challenges-393913.nn.r.appspot.com/ 
+  - https://challenges-393913.nn.r.appspot.com/web-crawler
+  - https://challenges-393913.nn.r.appspot.com/web-crawler/agencyanalytics
 
 ## Extra Option: 
 
