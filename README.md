@@ -2,7 +2,7 @@
 
 This is a simple web crawler implemented using the Laravel PHP framework and the Goutte library. This crawler can be used to analyze a website and gather various data points about it.
 
-The code is deployed on Google Cloud Plataform
+The code is deployed on Google Cloud Platform
 
 #LINKS:
   - https://challenges-393913.nn.r.appspot.com/ 
