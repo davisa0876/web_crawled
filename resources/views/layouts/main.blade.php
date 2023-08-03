@@ -37,10 +37,9 @@
             </ul>
         </div>
     </nav>
-
-<div class="container mt-5">
-    @yield('container')
-</div>
+    <div class="container">
+        @yield('container')
+    </div>
 
 <!-- Include jQuery (Must be before Bootstrap JS) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

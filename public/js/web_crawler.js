@@ -35,7 +35,7 @@ function displayNewResults(results) {
     $('#status-container').html(table);
 
 
-    var generalAverageLoadTime = (results.generalAverageLoadTime/1000);
+    var generalAverageLoadTime = (results.generalAverageLoadTime/100);
     GeneralResult = `
         <div class="col-md-20 mb-4">
             <div class="card mt-4">
@@ -52,7 +52,7 @@ function displayNewResults(results) {
     `;
     results = results.data;
     results.forEach((result,index) => {
-        var LoadTime = (result.LoadTime/1000);
+        var LoadTime = (result.LoadTime/100);
         let newResultCard = `
         <div class="col-md-6 mb-4">
             <div class="card mt-4">

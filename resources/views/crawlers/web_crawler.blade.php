@@ -3,8 +3,8 @@
 @extends('layouts.main')
 
 @section('title', 'Web Crawler')
-
 @section('container')
+
     <h1>Web Crawler View</h1>
 
     <!-- Form to input the link -->
@@ -28,29 +28,28 @@
         </div>
         @enderror
     </form>
-
     <!-- New Result Card -->
-    <h2 class="mt-5">Crawler Result</h2>
-
-    <div class="container">
-        <div class="card text-center" id="GeneralResult"> 
-        </div>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover mb-0 text-md-nowrap">
-                <thead>
-                    <tr>
-                        <th>URL</th>
-                        <th>Status Code</th>
-                    </tr>
-                </thead>
-                <tbody id="status-container"></tbody>
-            </table>
-        </div>        
+    <h2 class="mt-5">Crawler Result</h2> 
+    <div class="card text-center" id="GeneralResult"> 
     </div>
-
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover mb-0 text-md-nowrap">
+            <thead>
+                <tr>
+                    <th>URL</th>
+                    <th>Status Code</th>
+                </tr>
+            </thead>
+            <tbody id="status-container"></tbody>
+        </table>
+    </div>    
+    
     <div class="card-container" id="newResultCard">
         <!-- AJAX will populate this card body -->
     </div>
+    
+
+
 
 
 @endsection

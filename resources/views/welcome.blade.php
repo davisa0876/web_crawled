@@ -1,7 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Welcome to Web Crawler')
 @section('container')
-<div class="container">
     <div class="card text-center">
         <div class="welcome-text">Welcome to the Web Crawler Challenge!</div>
         <div class="icon"><i class="fas fa-code"></i></div>
@@ -31,6 +30,5 @@
             <a href="/web-crawler/agencyanalytics" class="btn btn-primary">Crawling AgencyAnalytics</a>
         </div>            
     </div>  
-</div>
 
 @endsection
